@@ -1,0 +1,121 @@
+body{
+	font-family: "hammersmith-one" regular;
+	font-size: 14px;
+	color: #ff6633; 
+}
+
+
+.header{
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	align-items: center;
+	position: fixed;
+	
+}
+
+.menu{
+	font-size: 20px;
+	text-align: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 85%;	
+}
+
+.searchbar{
+	border-bottom: 1px solid #ff6633 !important;
+	background-color: rgba(0,0,0,0.0);
+	border: none;
+	color: #ff6633;
+}
+
+a:hover {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+a:link {
+	color: #ff6633 !important;
+}
+
+#columna1 { 
+background: gray;
+vertical-align: top;
+display: inline-block;
+width: 90px;
+height: 1666px;	
+Float:left;
+padding: 20px; 
+margin-right: 100px;	
+}
+
+.button{
+	margin-top: 120px;
+	font-size: 18px;
+}
+.liner{
+	border-bottom: 2px solid #ff6633 !important;
+	background-color: rgba(0,0,0,0.0);
+	border: none;
+	color: #ff6633;
+	margin-top: -7px;
+	margin-bottom: 9px;
+	width: 50px;
+}
+
+#hero{
+	background-color:#F7F7F7;
+	padding-top: 160px;
+}
+
+#hero h5{
+	margin-bottom: 70px;
+	margin-left: 50px;
+}
+
+.tennis{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.tennis h6{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.line{
+	border-bottom: 2px solid #ff6633 !important;
+	background-color: rgba(0,0,0,0.0);
+	border: none;
+	color: #ff6633;
+	margin-top: -25px;
+	width: 110px;
+}
+
+.footer{
+	background-color: rgba(0,0,0,0.8);
+	padding: 40px; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 210px;
+	width: 100%;
+	font-size: 20px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	
+}
+.icons-wrapper{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.icon{
+	width: 40px;
+	margin-bottom: 10px;
+	
+	
+}
