@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 body{
-	font-family: 'Hammersmith One', sans-serif;
+	font-family: "hammersmith-one" regular;
 	font-size: 14px;
 	color: #ff6633; 
 }
@@ -16,7 +16,6 @@ body{
 	height: 80px;
 	width: 100%;
 	align-items: center;
-	vertical-align: middle;
 	position: fixed;
 	
 }
@@ -27,8 +26,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 85%;
-	
+	width: 85%;	
 }
 
 .searchbar{
@@ -47,11 +45,87 @@ a:link {
 	color: #ff6633 !important;
 }
 
-#hero{
-	background-color: #eeeeef;
-	
+#columna1 { 
+	background: rgba(0,0,0,0.8);
+	vertical-align: top;
+	display: inline-block;
+	width: 10%;
+	height: 100%;	
+	Float:left;
+	padding: 20px; 
+	margin-right: 100px;
+	position: fixed;
+	margin-top: 80px;
 }
 
+#columna1 p{
+	margin-left: 10px;
+}
+.button{
+	margin-top: 120px;
+	font-size: 18px;
+}
+.liner{
+	border-bottom: 2px solid #ff6633 !important;
+	background-color: rgba(0,0,0,0.0);
+	border: none;
+	color: #ff6633;
+	margin-top: -7px;
+	margin-bottom: 9px;
+	width: 50px;
+}
+
+#hero{
+	background-color:#F7F7F7;
+	padding-top: 160px;
+	padding-left: 15%;
+}
+
+#hero h5{
+	margin-bottom: 70px;
+}
+
+.tennis{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.tennis h6{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.line{
+	border-bottom: 2px solid #ff6633 !important;
+	background-color: rgba(0,0,0,0.0);
+	border: none;
+	color: #ff6633;
+	margin-top: -25px;
+	width: 110px;
+}
+
+.footer{
+	background-color: rgba(0,0,0,0.8);
+	padding: 40px; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 210px;
+	width: 100%;
+	font-size: 20px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	
+}
+.icons-wrapper{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.icon{
+	width: 40px;
+	margin-bottom: 10px;
+	
+	
+}
 #sneaker{
 	background-color:#F7F7F7;
 	padding-top: 160px;
@@ -143,11 +217,3 @@ span{
 	color: #f7f7f7f;
 	border-radius: 100%;
 }
-
-
-
-
-
-
-
-
