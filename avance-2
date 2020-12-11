@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<title>Basketball</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/styleetiquetas.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav>
+		<div class="header">
+			<a href="index.html" target="_self">
+				<img src="img/Logo UBUNG-01-01.png" width="150" heigth="20" alt="UBUNG" class="img-fluid">
+			</a>
+			<div class="menu">
+				<div class="menu-item"><a href="..." target="_self">Training</a></div>
+				<div class="menu-item"><a href="running.html" target="_self">Running</a></div>
+				<div class="menu-item"><a href="basketball.html" target="_self">Basketball</a></div>
+				<div class="menu-item"><a href="..." target="_self">Football</a></div>
+				<div class="menu-item"><a href="..." target="_self">Baseball</a></div>
+				<div class="menu-item"><a href="..." target="_self">Más Deportes</a></div>
+				<div><img src="img/Loopa-01.png" width="30" height="" alt="buscar">
+					<input class="searchbar" type="text" placeholder="Buscar">
+				</div>
+				<div>
+					<a href="..." target="_self">
+						<img src="img/Heart Icon-01.png" width="30" height="" alt="favoritos">
+					</a>
+				</div>
+				<div>
+					<a href="..." target="_self">
+						<img src="img/Carrito-01.png" width="30" height="" alt="carrito" style=" margin-right: 40px; margin-left: -30px">
+					</a>
+				</div>
+			</div>
+		</div>
+		</nav>
+	</header>
+<section id="tenis">
+	<div id="contenedor">
+    <div id="columna1">
+		<div class="button">
+			<p>Filtro</p>
+			<article id="filtro">
+				<div class="Container">
+					<div class="liner"></div>
+				</div>
+			</article>
+			<p>Color</p>
+			<p>Precio</p>
+			<p>Tamaño</p>
+		</div>
+    </div>
+   
+</div>
+	<section id="hero">
+		<div class="container">
+			
+			<h5><b>Basketball/Ropa</b></h5>
+			
+			<div class="row">
+				
+				<articles class="col-md-4 col-sm-6 col-12">
+					<div class="tennis">
+						<img src="img/Heart Icon-01.png" alt="like" class="img-fluid" width="35" height="35" style="margin-left: 300px">
+						<a href="camisa.html"><img src="img/camiseta-gris.jpg" alt="camiseta-gris" class="img-fluid" width="400" height="600"></a>
+							<h6><b>Comprar ahora</b></h6>
+						<div class="line">
+						</div>
+					</div>
+				</articles>
+				<articles class="col-md-4 col-sm-6 col-12">
+					<div class="tennis">
+						<img src="img/Heart Icon-01.png" alt="like" class="img-fluid" width="35" height="35" style="margin-left: 300px">
+						<a href="..."><img src="img/casoneta-negra.jpg" alt="calsoneta-negra" class="img-fluid" width="400" height="600"></a>
+							<h6><b>Comprar ahora</b></h6>
+						<div class="line">
+						</div>
+					</div>
+				</articles>
+				<articles class="col-md-4 col-sm-6 col-12">
+					<div class="tennis">
+						<img src="img/Heart Icon-01.png" alt="like" class="img-fluid" width="35" height="35" style="margin-left: 300px">
+						<a href="..."><img src="img/buso-tricolor.jpg" alt="buso-tricolor" class="img-fluid" width="400" height="600"></a>
+							<h6><b>Comprar ahora</b></h6>
+						<div class="line">
+						</div>
+					</div>
+				</articles>
+			</div>
+			<div class="row">
+				
+				<articles class="col-md-4 col-sm-6 col-12">
+					<div class="tennis">
+						<img src="img/Heart Icon-01.png" alt="like" class="img-fluid" width="35" height="35" style="margin-left: 300px">
+						<a href="..."><img src="img/sudadera-negra.jpg" alt="sudadera-negra" class="img-fluid" width="400" height="600"></a>
+							<h6><b>Comprar ahora</b></h6>
+						<div class="line">
+						</div>
+					</div>
+				</articles>
+				<articles class="col-md-4 col-sm-6 col-12">
+					<div class="tennis">
+						<img src="img/Heart Icon-01.png" alt="like" class="img-fluid" width="35" height="35" style="margin-left: 300px">
+						<a href="..."><img src="img/calceta-3-pares.jpg" alt="calseta-3-pares" class="img-fluid" width="400" height="600"></a>
+							<h6><b>Comprar ahora</b></h6>
+						<div class="line">
+						</div>
+					</div>
+				</articles>
+				<articles class="col-md-4 col-sm-6 col-12">
+					<div class="tennis">
+						<img src="img/Heart Icon-01.png" alt="like" class="img-fluid" width="35" height="35" style="margin-left: 300px">
+						<a href="..."><img src="img/camiseta-negra.jpg" alt="camiseta-negra" class="img-fluid" width="400" height="600"></a>
+							<h6><b>Comprar ahora</b></h6>
+						<div class="line">
+						</div>
+					</div>
+				</articles>
+			</div>
+		</div>
+	</section>
+	</section>
+	
+	<footer>
+		<div class="footer">
+			<div style="font-weight: 700">Contacto</div>
+			<div class="icons-wrapper" style="margin-left: -100px">
+				<img class="icon" src="img/Phone-01.png" alt="Telefono">
+				<img class="icon" src="img/Mail-01.png"  alt="correo">
+			</div>
+			<div style="margin-left: -130px">12345678<br><br>correo</div>
+			<div style="font-weight: 700">Redes sociales</div>
+			<div class="icons-wrapper" style="margin-left: -130px">
+				<a href="..." target="_self">
+					<img class="icon" src="img/Instagram-01-01.png" alt="instagram"></a>
+				<a href="..." target="_self">
+					<img class="icon" src="img/Facebook-01.png" alt="facebook"></a>
+				<a href="..." target="_self">
+					<img class="icon" src="img/Twitter-01.png" alt="twitter"></a>
+			</div>
+			<div style="font-weight: 700">Sobre nosotros</div>
+			<div style="margin-left: -100px; width: 200px; ">Este es el espacio para el parrafo de sobre nosotros</div>
+		</div>
+	</footer>
+	
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
